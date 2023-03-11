@@ -7,4 +7,5 @@ package com.sanjin.task10;
 @MyAnnotation(value = "111")
 public class Person {
 
+    private int age;
 }
