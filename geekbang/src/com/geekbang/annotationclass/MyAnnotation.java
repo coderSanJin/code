@@ -1,9 +1,5 @@
 package com.geekbang.annotationclass;
 
-
-import com.sanjin.innerclass.enumclass.Direction;
-import com.sanjin.innerclass.enumclass.DirectionEnum;
-
 import java.lang.annotation.*;
 
 /**
