@@ -1,4 +1,4 @@
-package com.geekbang.person;
+package com.geekbang.supermarket.person;
 
 public class Customer {
     public String name;

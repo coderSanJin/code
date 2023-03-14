@@ -1,11 +1,11 @@
-package com.geekbang;
+package com.geekbang.supermarket;
 
-import com.geekbang.person.Customer;
+import com.geekbang.supermarket.person.Customer;
 import com.geekbang.supermarket.LittleSuperMarket;
 import com.geekbang.supermarket.Merchandise;
 
 import java.util.Scanner;
-X
+
 public class RunLittleSupperMarketAppMain {
 
     public static void main(String[] args) {
