@@ -1,5 +1,9 @@
 package com.sanjin.equalsclass;
 
+import com.sanjin.inheritance.ManagerTest;
+
+import java.util.ArrayList;
+
 public class EqualsTest {
 
     /**
@@ -38,7 +42,13 @@ public class EqualsTest {
         System.out.println("bob.hashCode():" + bob.hashCode());
         System.out.println("carl.hashCode():" + carl.hashCode());
 
+        ArrayList<Manager> managers = new ArrayList<>();
+        @SuppressWarnings("unchecked")  //使用标记来标记这个变量能够接受类型转换
+        ArrayList<ManagerTest> arrayList = (ArrayList<ManagerTest>) EqualsTest.find(managers);
+    }
 
 
+    public static ArrayList find(ArrayList query) {
+        return query;
     }
 }
